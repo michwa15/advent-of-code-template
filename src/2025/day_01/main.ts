@@ -12,6 +12,7 @@ function part1(lines: string[]): number | string {
   var currentVal = 50;
   for (const line of lines) {
     const val = Number(line.substring(1)) % 100;
+
     if (line.startsWith('L')) {
       currentVal -= val;
       if (currentVal < 0) {
