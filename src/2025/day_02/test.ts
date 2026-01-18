@@ -11,12 +11,12 @@ describe('2025 Day 02', () => {
   it('part1 example', () => {
     const result = part1(lines);
     // replace with expected result from problem
-    expect(result).toBe(0);
+    expect(result).toBe(1227775554);
   });
 
   it('part2 example', () => {
     const result = part2(lines);
     // replace with expected result from problem
-    expect(result).toBe(0);
+    expect(result).toBe(4174379265);
   });
 });
