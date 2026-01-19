@@ -6,7 +6,7 @@
     "build": "tsc",
     "test": "vitest",
     "test:watch": "vitest --watch",
-    "start": "tsx src/2025/day_03/main.ts",
+    "start": "tsx src/2025/day_04/main.ts",
     "new-day": "tsx scripts/new-day.ts"
   },
   "devDependencies": {
